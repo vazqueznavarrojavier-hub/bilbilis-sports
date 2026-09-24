@@ -14,7 +14,9 @@ const sports = [
 ]
 
 const seedEvents = [
-  { id: 'cal-1', title: 'Torneo local de pádel', sport: 'padel', scope: 'local', date: '2026-09-26', time: '10:00', venue: 'Instalaciones deportivas de Calatayud', competition: 'Agenda local', featured: true, demo: true, description: 'Evento de demostración para visualizar la agenda local.' },
+  { id: 'padel-aragon-5m-1', title: 'Pádel Ayud - Villanueva', sport: 'padel', scope: 'local', date: '2026-09-27', time: '10:30', venue: 'Pádel Ayud', competition: 'Liga de Aragón · 5ª Masculina', featured: true, demo: true, description: 'Última jornada de Liga de Aragón de pádel, categoría 5ª masculina.' },
+  { id: 'padel-aragon-5m-2', title: 'JJMundo - Pádel Figueruelas', sport: 'padel', scope: 'local', date: '2026-09-27', time: '12:00', venue: 'JJMundo', competition: 'Liga de Aragón · 5ª Masculina', featured: true, demo: true, description: 'Última jornada de Liga de Aragón de pádel, categoría 5ª masculina.' },
+  { id: 'padel-aragon-5m-3', title: 'Pádel Calatayud B - Huesca Indoor', sport: 'padel', scope: 'local', date: '2026-09-27', time: '13:00', venue: 'Pádel Calatayud', competition: 'Liga de Aragón · 5ª Masculina', featured: true, demo: true, description: 'Última jornada de Liga de Aragón de pádel, categoría 5ª masculina.' },
   { id: 'cal-2', title: 'Jornada de fútbol local', sport: 'football', scope: 'local', date: '2026-09-27', time: '17:30', venue: 'Calatayud', competition: 'Agenda local', featured: true, demo: true, description: 'Evento de demostración para visualizar la ficha y el calendario.' },
   { id: 'cal-3', title: 'Quedada ciclista', sport: 'cycling', scope: 'local', date: '2026-10-03', time: '09:00', venue: 'Salida desde Calatayud', competition: 'Ciclismo', featured: false, demo: true, description: 'Evento de demostración.' },
   { id: 'int-1', title: 'Partido internacional destacado', sport: 'football', scope: 'international', date: '2026-09-26', time: '21:00', venue: 'Europa', competition: 'Fútbol internacional', featured: true, demo: true, description: 'Evento de demostración. En producción estos eventos llegarán desde una fuente deportiva.' },
